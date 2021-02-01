@@ -1,0 +1,82 @@
+.kontejner {
+    height: auto;
+    width: auto;
+    display: flex;
+    border: solid 1px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.mech {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    width: 15px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+}
+
+.izgled {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    font-size: small;
+}
+
+.btn {
+    display: flex;
+    width: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.poeni,
+.rez {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.igrac {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.slika {
+    height: 100px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.gore {
+    width: inherit;
+    height: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.dole {
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media all and (max-width: 750px) {
+    .dole {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
